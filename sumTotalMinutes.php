@@ -10,6 +10,8 @@
         return $totalTime[1] - $totalTime[0];
     }
     
-    $result = getTotalMinutes("10:00am-12:00am");
+    $result1 = getTotalMinutes("10:00am-12:00am");
+    $result2 = getTotalMinutes("12:30pm-12:00am");
+    $result3 = getTotalMinutes("1:30pm-12:00am");
     var_dump($result);
 ?>
