@@ -9,7 +9,7 @@
         }
         return $totalTime[1] - $totalTime[0];
     }
-    
+    //remove
     $result = getTotalMinutes("10:00am-12:00am");
     var_dump($result);
 ?>
