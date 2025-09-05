@@ -7,7 +7,6 @@
             list($hour,$minutes) = explode(':',$hourMinute);
             $totalTime[] = ($hour * 60) + $minutes;
         }
-        //message
         return $totalTime[1] - $totalTime[0];
     }
     
